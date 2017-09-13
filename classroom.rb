@@ -67,7 +67,8 @@ end
 # Return a hash of students and their final letter grade, as determined
 # by their average.
 def final_letter_grades(grade_hash)
-
+  score = averages(grade_hash)
+  score.methods.sort
 end
 
 # Return the average for the entire class.
